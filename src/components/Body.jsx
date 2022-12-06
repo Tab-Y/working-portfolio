@@ -1,36 +1,37 @@
-import React from 'react';
+import { React, useState } from 'react';
 import Bio from './bio';
 import Profile from './profile';
 import Projects from './projects';
+import Splash from './splash'
 
 const Body = ({ currentPage, handlePageChange }) => {
-    // Body will be the rendered page component
-    // switch (choice) {       // choice will be which button they press
-    //     case 'bio':
-    //         if (err) {
-    //             throw err;
-    //         }
-    //         return(
-    //             <Bio />
-    //         );
+    // Body will be the rendered page component use state change
+    const [ choice, setChoice ] = useState('')
+    switch (choice) {       // choice will be which button they press for state change
+        case 'bio':
 
-    //     case 'profile':
-    //         if (err) {
-    //             throw err;
-    //         }
-    //         return (
-    //             <Profile />
-    //         );
+            return(
+                <Bio />
+            );
 
-    //     case 'projects':
-    //         if (err) {
-    //             throw err;
-    //         }
-    //         return(
-    //             <Projects />
-    //         );
-    // }
-    <>hi, this is the body</>
+        case 'profile':
+
+            return (
+                <Profile />
+            );
+
+        case 'projects':
+
+            return(
+                <Projects />
+            );
+        default :
+
+            return (
+                <Splash />
+            )
+        
+    }
+
 }
-
 export default Body;
