@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Page = ({ currentPage, handlePageChange }) => {
+const Bio = ({ currentPage, handlePageChange }) => {
     return (
         <>content</>
     )
 }
 
-export default Page;
+export default Bio;
