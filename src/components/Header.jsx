@@ -11,16 +11,16 @@ const Header = ({ renderSplash, renderBio, renderProfile, renderProjects, active
             <nav className='col'>
                 <ul className='nav '>
                     <li className='nav-item mx-auto'>
-                        <a onClick={renderBio} id='navAboutMe' className={active === 'bio' ? 'navBtn active' : 'navBtn'}>About Me</a>
+                        <button className='navBtn'><a onClick={renderBio} id='navAboutMe' className={active === 'bio' ? 'navBtn active' : 'navBtn'}>About Me</a></button>
                     </li>
                     <li className='nav-item mx-auto'>
-                        <a onClick={renderProjects} id='navPortfolio' className={active === 'projects' ? 'navBtn active' : 'navBtn'}>Portfolio</a>
+                        <button className='navBtn'><a onClick={renderProjects} id='navPortfolio' className={active === 'projects' ? 'navBtn active' : 'navBtn'}>Portfolio</a></button>
                     </li>
                     <li className='nav-item mx-auto'>
-                        <a onClick={renderProfile} id='navContact' className={active === 'profile' ? 'navBtn active' : 'navBtn'}>Contact Me</a>
+                        <button className='navBtn'><a onClick={renderProfile} id='navContact' className={active === 'profile' ? 'navBtn active' : 'navBtn'}>Contact Me</a></button>
                     </li>
                     <li className='nav-item mx-auto'>
-                        <a href="#resume" id='navResume' className={active === 'resume' ? 'navBtn active' : 'navBtn'}>Resume</a>
+                        <button className='navBtn'><a href="#resume" id='navResume' className={active === 'resume' ? 'navBtn active' : 'navBtn'}>Resume</a></button>
                     </li>
                 </ul>
             </nav>

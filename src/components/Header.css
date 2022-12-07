@@ -33,9 +33,9 @@ BckGrS = shadow */
 
 .navBtn {
     border-radius: 33%;
-    background: linear-gradient(45deg, var(--midBckGrL), var(--midBckGrS));
-    box-shadow: 5px 5px 10px var(--midBckGrS),
-        -5px -5px 10px var(--midBckGrL);
+    background: radial-gradient(ellipse, var(--darkBckGrL), var(--darkBckGrS));
+    box-shadow: 5px 5px 10px var(--darkBckGrS),
+        -5px -5px 10px var(--darkBckGrL);
     color: var(--whiteBckGr);
     font-family: var(--bodyFont);
     text-decoration: none;
