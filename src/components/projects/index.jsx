@@ -11,6 +11,8 @@ import notetaker from './img/index-screenshot.png';
 
 const Projects = ({ currentPage, handlePageChange }) => {
     return (
+        <>
+        <h1 className='card-title text-center' id='portfolioTitle'>Portfolio</h1>
         <div id='projects'>
             <div className='projectCard' id='featuredProject'>
             <h4 className='over-img'>Anime Tracker<p>Node.js, MySQL, Handlebars, Bootstrap, JavaScript, CSS</p></h4>
@@ -39,6 +41,7 @@ const Projects = ({ currentPage, handlePageChange }) => {
                 </div> */}
             </div>
         </div>
+        </>
     )
 }
 

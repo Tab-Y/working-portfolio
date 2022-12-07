@@ -24,6 +24,13 @@ BckGrS = shadow */
     padding: 10px;
 }
 
+#aboutMeTitle {
+    font-family: var(--titleFont);
+    font-size: 2rem;
+    color: var(--darkBckGr);
+    margin: 15px;
+}
+
 #selfie {
     margin: 15px;
     max-width: 200px;

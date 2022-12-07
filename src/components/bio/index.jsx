@@ -6,8 +6,8 @@ const Bio = ({ currentPage, handlePageChange }) => {
     return (
         <>
         <img src={selfie} alt="Photo of Taber Youmans" id='selfie' className='mx-auto d-block'/>
+            <h1 className='card-title text-center' id='aboutMeTitle'>About Me</h1>
         <div className='card mx-auto' id='aboutMe'>
-            <h3 className='card-title text-center'>About Me</h3>
                 <p className='card-text text-center'>
                     Taber Youmans is an American born person who has worked in many types of fields. Ranging from
                     moving, military, warehouse backroom, retail, customer service, sales, sanitation and
