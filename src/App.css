@@ -1,1 +1,37 @@
 /* base css for app */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    
+}
+
+.container-fluid{
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    height: 100%;
+
+}
+
+body {
+    min-height: 100vh;
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+input, select, option, optgroup, textarea, button, pre, code {
+    font-size: 100%;
+    font-family: inherit;
+}
+
+ol, ul {
+    list-style: none;
+}
+

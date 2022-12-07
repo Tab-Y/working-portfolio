@@ -1,0 +1,48 @@
+/* BckGr = main color
+BckGrL = light 
+BckGrS = shadow */
+:root {
+    --bodyFont: 'Quicksand', sans-serif;
+    --titleFont: 'Zen Dots', cursive;
+    --mainBckGr: #deea34;
+    --mainBckGrL: #bdc72c;
+    --mainBckGrS: #ffff3c;
+    --darkBckGr: #1f0d30;
+    --darkBckGrL: #1a0b29;
+    --darkBckGrS: #240f37;
+    --whiteBckGr: #c6e9f0;
+    --whiteBckGrL: #a8c6cc;
+    --whiteBckGrS: #e4ffff;
+    --midBckGr: #5c4747;
+    --midBckGrL: #4e3c3c;
+    --midBckGrS: #6a5252;
+    --black: #000000;
+}
+
+.titleHeader a {
+    font-family: var(--titleFont);
+    font-size: 4rem;
+    color: var(--whiteBckGr);
+    text-decoration: none;
+}
+.row {
+    padding: 0;
+    margin: 0;
+}
+.navBtn {
+    border-radius: 33%;
+    background: linear-gradient(45deg, var(--midBckGrL), var(--midBckGrS));
+    box-shadow: 5px 5px 10px var(--midBckGrS),
+        -5px -5px 10px var(--midBckGrL);
+    color: var(--whiteBckGr);
+    font-family: var(--bodyFont);
+    text-decoration: none;
+}
+
+
+
+header {
+    background: linear-gradient(var(--darkBckGr), var(--midBckGr));
+    width: 100vw;
+    min-height: 15vh;
+}
