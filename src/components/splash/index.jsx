@@ -3,7 +3,7 @@ import './style.css'
 
 const Splash = ({ currentPage, handlePageChange }) => {
     return (
-        <div className='card mx-auto' >
+        <div className='card mx-auto' id='splashCard'>
             <h2 className='card-title text-center'>
                 Welcome to my website
             </h2>

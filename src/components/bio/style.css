@@ -18,3 +18,15 @@ BckGrS = shadow */
     --midBckGrS: #6a5252;
     --black: #000000;
 }
+
+#aboutMe {
+    width: 100%;
+    padding: 10px;
+}
+
+#selfie {
+    margin: 15px;
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+}

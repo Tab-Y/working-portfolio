@@ -19,7 +19,7 @@ BckGrS = shadow */
     --black: #000000;
 }
 
-.card {
+#splashCard {
     margin-top: 50px;
     width: 18rem;
 }
