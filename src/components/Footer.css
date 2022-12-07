@@ -22,6 +22,7 @@ footer {
     font-family: var(--bodyFont);
     width: 100vw;
     height: 10vh;
+    max-height: 58px;
     background: linear-gradient(var(--midBckGr), var(--darkBckGr));
 }
 .footerBtn {

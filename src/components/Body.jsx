@@ -2,7 +2,8 @@ import { React, useState } from 'react';
 import Bio from './bio';
 import Profile from './profile';
 import Projects from './projects';
-import Splash from './splash'
+import Splash from './splash';
+import './Body.css'
 
 const Body = ({ currentPage, handlePageChange }) => {
     // Body will be the rendered page component use state change

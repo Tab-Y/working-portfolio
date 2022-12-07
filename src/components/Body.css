@@ -18,3 +18,6 @@ BckGrS = shadow */
     --midBckGrS: #6a5252;
     --black: #000000;
 }
+body{
+    background: var(--mainBckGr);
+}

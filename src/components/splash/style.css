@@ -18,3 +18,8 @@ BckGrS = shadow */
     --midBckGrS: #6a5252;
     --black: #000000;
 }
+
+.card {
+    margin-top: 50px;
+    width: 18rem;
+}

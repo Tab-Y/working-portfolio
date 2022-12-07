@@ -3,7 +3,7 @@ import './Footer.css'
 
 const Footer = ({ currentPage, handlePageChange }) => {
     return (
-        <footer className='footer'>
+        <footer className='footer fixed-bottom'>
             <ul className='nav justify-content-center align-center'>
                 <li className='nav-item '>
                     <a href="#" className='nav-link footerBtn'>github</a>

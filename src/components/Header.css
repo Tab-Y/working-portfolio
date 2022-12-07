@@ -44,5 +44,8 @@ BckGrS = shadow */
 header {
     background: linear-gradient(var(--darkBckGr), var(--midBckGr));
     width: 100vw;
-    min-height: 15vh;
+    height: 15vh;
+    max-height: 85px;
 }
+
+/* add media queries for smaller font / breakpoints */

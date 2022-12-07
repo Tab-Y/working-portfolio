@@ -7,13 +7,15 @@ import Footer from './components/Footer';   // imports footer
 function App() {
 
 
-    return(
+    return (
         <>
-        <div className='container-fluid'>
-        <Header />
-        <Body />
-        <Footer />
-        </div>
+            <div className='container-fluid '>
+                <Header />
+                <div className='container'>
+                    <Body />
+                </div>
+                <Footer />
+            </div>
         </>
 
     )
