@@ -1,12 +1,19 @@
 import React from 'react';
+import './Footer.css'
 
 const Footer = ({ currentPage, handlePageChange }) => {
     return (
-        <footer>
-            <ul>
-                <li><a href="#">github</a></li>
-                <li><a href="#">linkedIn</a></li>
-                <li><a href="#">Another Profile</a></li>
+        <footer className='footer'>
+            <ul className='nav justify-content-center align-center'>
+                <li className='nav-item '>
+                    <a href="#" className='nav-link footerBtn'>github</a>
+                </li>
+                <li className='nav-item'>
+                    <a href="#" className='nav-link footerBtn'>linkedIn</a>
+                </li>
+                <li className='nav-item'>
+                    <a href="#" className='nav-link footerBtn'>Another Profile</a>
+                </li>
             </ul>
         </footer>
     )

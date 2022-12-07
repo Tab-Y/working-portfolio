@@ -18,3 +18,12 @@ BckGrS = shadow */
     --midBckGrS: #6a5252;
     --black: #000000;
 }
+footer {
+    font-family: var(--bodyFont);
+    width: 100vw;
+    height: 10vh;
+    background: linear-gradient(var(--midBckGr), var(--darkBckGr));
+}
+.footerBtn {
+    color: var(--whiteBckGr); 
+}
