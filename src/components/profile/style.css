@@ -32,6 +32,25 @@ BckGrS = shadow */
     -15px -15px 50px var(--whiteBckGrS);
 }
 
+#submitBtn{
+    background: var(--whiteBckGr);
+    background: radial-gradient(ellipse, var(--whiteBckGrS), var(--whiteBckGr));
+    border-radius: 5px;
+    border: 0px;
+    padding: 3px;
+    box-shadow: inset 2px 2px 10px var(--whiteBckGrL),
+    inset 5px 5px 10px var(--whiteBckGrS);
+}
+
+#submitBtn:hover {
+    background: radial-gradient(ellipse, var(--whiteBckGrS), var(--whiteBckGrL));
+}
+
+.errorText {
+color: var(--darkBckGr);
+background: var(--mainBckGr);
+}
+
 #contactMe{
     font-family: var(--titleFont);
     font-size: 2rem;
