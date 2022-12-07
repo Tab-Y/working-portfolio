@@ -9,7 +9,7 @@ import notetaker from './img/index-screenshot.png';
 // add a carousel for featured project to cycle a few
 // dynamically create cards in future update with json data
 
-const Projects = ({ currentPage, handlePageChange }) => {
+const Projects = () => {
     return (
         <>
         <h1 className='card-title text-center' id='portfolioTitle'>Portfolio</h1>

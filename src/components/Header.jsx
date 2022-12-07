@@ -4,7 +4,7 @@ import './Header.css';
 // resume btn needs to download current resume
 // each btn needs to change page
 
-const Header = ({ renderSplash, renderBio, renderProfile, renderProjects, active }) => {
+const Header = ({ renderSplash, renderBio, renderProfile, renderProjects, renderResume, active }) => {
     return (
         <header className='row header'>
             <h1 className='titleHeader col align-middle'><a onClick={renderSplash} className={active === '' ? 'active' : ''}>Taber Youmans</a></h1>
@@ -20,7 +20,7 @@ const Header = ({ renderSplash, renderBio, renderProfile, renderProjects, active
                         <button className='navBtn'><a onClick={renderProfile} id='navContact' className={active === 'profile' ? 'navBtn active' : 'navBtn'}>Contact Me</a></button>
                     </li>
                     <li className='nav-item mx-auto'>
-                        <button className='navBtn'><a href="#resume" id='navResume' className={active === 'resume' ? 'navBtn active' : 'navBtn'}>Resume</a></button>
+                        <button className='navBtn'><a onClick={renderResume} id='navResume' className={active === 'resume' ? 'navBtn active' : 'navBtn'}>Resume</a></button>
                     </li>
                 </ul>
             </nav>
