@@ -18,3 +18,65 @@ BckGrS = shadow */
     --midBckGrS: #6a5252;
     --black: #000000;
 }
+
+#projects {
+    width: 100%;
+    padding-bottom: 75px;
+}
+
+#featuredProject {
+    margin: 5px 0 5px 0;
+    height: 500px;
+}
+
+.projectCard {
+    position: relative;
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+    position: relative;
+    border: 3px solid var(--darkBckGr);
+    border-radius: 15px;
+}
+
+.projectCard img {
+    max-width: 100%;
+    opacity: 0.5;
+}
+
+.projectCard img:hover {
+    opacity: 1;
+}
+
+#featuredProject>.over-img {
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+    color: var(--darkBckGr);
+    font-size: 1.2rem;
+    padding: 12px 24px;
+    border-radius: 15px;
+    background: var(--whiteBckGr);
+    box-shadow: 10px 10px 25px var(--whiteBckGrL),
+        -10px -10px 25px var(--whiteBckGrS);
+}
+
+.over-img {
+    position: absolute;
+    bottom: 25px;
+    left: 15px;
+    color: var(--darkBckGr);
+    font-size: 1rem;
+    padding: 6px 12px;
+    border-radius: 15px;
+    background: var(--whiteBckGr);
+    box-shadow: 8px 8px 18px var(--whiteBckGrL),
+        -8px -8px 18px var(--whiteBckGrS);
+}
+
+.grid {
+    display: grid;
+    gap: 5px;
+    width: 100%;
+    grid-template-columns: repeat(2, 1fr);
+}

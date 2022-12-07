@@ -7,7 +7,7 @@ import './Body.css'
 
 const Body = ({ currentPage, handlePageChange }) => {
     // Body will be the rendered page component use state change
-    const [ choice, setChoice ] = useState('profile')
+    const [ choice, setChoice ] = useState('projects')
     switch (choice) {       // choice will be which button they press for state change
         case 'bio':
 

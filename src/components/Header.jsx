@@ -3,7 +3,7 @@ import './Header.css';
 
 const Header = ({ currentPage, handlePageChange }) => {
     return (
-        <header className='row'>
+        <header className='row header'>
             <h1 className='titleHeader col align-middle'><a href='#home'>Taber Youmans</a></h1>
             <nav className='col'>
                 <ul className='nav '>
