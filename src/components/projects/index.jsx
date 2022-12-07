@@ -6,6 +6,9 @@ import surfer from './img/surfer_screenshot.png';
 import rps from './img/rps_preview.png';
 import notetaker from './img/index-screenshot.png';
 
+// add a carousel for featured project to cycle a few
+// dynamically create cards in future update with json data
+
 const Projects = ({ currentPage, handlePageChange }) => {
     return (
         <div id='projects'>

@@ -1,23 +1,26 @@
 import React from 'react';
 import './Header.css';
 
-const Header = ({ currentPage, handlePageChange }) => {
+// resume btn needs to download current resume
+// each btn needs to change page
+
+const Header = ({ renderSplash, renderBio, renderProfile, renderProjects, active }) => {
     return (
         <header className='row header'>
-            <h1 className='titleHeader col align-middle'><a href='#home'>Taber Youmans</a></h1>
+            <h1 className='titleHeader col align-middle'><a onClick={renderSplash} className={active === '' ? 'active' : ''}>Taber Youmans</a></h1>
             <nav className='col'>
                 <ul className='nav '>
                     <li className='nav-item mx-auto'>
-                        <a href="#aboutMe" id='navAboutMe' className='navBtn active'>About Me</a>
+                        <a onClick={renderBio} id='navAboutMe' className={active === 'bio' ? 'navBtn active' : 'navBtn'}>About Me</a>
                     </li>
                     <li className='nav-item mx-auto'>
-                        <a href="#portfolio" id='navPortfolio' className='navBtn'>Portfolio</a>
+                        <a onClick={renderProjects} id='navPortfolio' className={active === 'projects' ? 'navBtn active' : 'navBtn'}>Portfolio</a>
                     </li>
                     <li className='nav-item mx-auto'>
-                        <a href="#contact" id='navContact' className='navBtn'>Contact Me</a>
+                        <a onClick={renderProfile} id='navContact' className={active === 'profile' ? 'navBtn active' : 'navBtn'}>Contact Me</a>
                     </li>
                     <li className='nav-item mx-auto'>
-                        <a href="#resume" id='navResume' className='navBtn'>Resume</a>
+                        <a href="#resume" id='navResume' className={active === 'resume' ? 'navBtn active' : 'navBtn'}>Resume</a>
                     </li>
                 </ul>
             </nav>

@@ -1,4 +1,21 @@
 /* base css for app */
+:root {
+    --bodyFont: 'Quicksand', sans-serif;
+    --titleFont: 'Zen Dots', cursive;
+    --mainBckGr: #deea34;
+    --mainBckGrL: #bdc72c;
+    --mainBckGrS: #ffff3c;
+    --darkBckGr: #1f0d30;
+    --darkBckGrL: #1a0b29;
+    --darkBckGrS: #240f37;
+    --whiteBckGr: #c6e9f0;
+    --whiteBckGrL: #a8c6cc;
+    --whiteBckGrS: #e4ffff;
+    --midBckGr: #5c4747;
+    --midBckGrL: #4e3c3c;
+    --midBckGrS: #6a5252;
+    --black: #000000;
+}
 * {
     box-sizing: border-box;
     padding: 0;
@@ -18,6 +35,7 @@ html {
 }
 
 body {
+    background: var(--whiteBckGr);
     max-width: 100vw;
     min-height: 100vh;
     
