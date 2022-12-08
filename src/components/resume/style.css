@@ -1,0 +1,87 @@
+:root {
+    --bodyFont: 'Quicksand', sans-serif;
+    --titleFont: 'Zen Dots', cursive;
+    --mainBckGr: #deea34;
+    --mainBckGrL: #bdc72c;
+    --mainBckGrS: #ffff3c;
+    --darkBckGr: #1f0d30;
+    --darkBckGrL: #1a0b29;
+    --darkBckGrS: #240f37;
+    --whiteBckGr: #c6e9f0;
+    --whiteBckGrL: #a8c6cc;
+    --whiteBckGrS: #e4ffff;
+    --midBckGr: #5c4747;
+    --midBckGrL: #4e3c3c;
+    --midBckGrS: #6a5252;
+    --black: #000000;
+}
+
+.subTitle {
+    font-size: 1.5rem;
+}
+
+#resumeTitle{
+    font-family: var(--titleFont);
+    font-size: 2rem;
+    color: var(--darkBckGr);
+    margin: 15px;
+}
+
+#proficienciesList {
+    color: var(--darkBckGr);
+    font-size: 1rem;
+    line-height: 1.5;
+    display: grid;
+    padding: 15px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    border-radius: 35px;
+    box-shadow: 10px 10px 50px var(--whiteBckGrL),
+    10px 10px 50px var(--whiteBckGrS);
+}
+
+#general {
+    background: radial-gradient(ellipse, var(--whiteBckGrS), var(--whiteBckGr));
+    border-radius: 35px;
+    box-shadow: inset -10px -10px 50px var(--whiteBckGrL),
+    inset 10px 10px 50px var(--whiteBckGrS);
+}
+
+#general:hover {
+    background: radial-gradient(ellipse, var(--mainBckGrS), var(--mainBckGr));
+    box-shadow: inset -10px -10px 50px var(--mainBckGrL),
+    inset 10px 10px 50px var(--mainBckGrS);
+}
+
+#frontEnd {
+    background: radial-gradient(ellipse, var(--whiteBckGrS), var(--whiteBckGr));
+    border-radius: 35px;
+    box-shadow: inset -10px -10px 50px var(--whiteBckGrL),
+    inset 10px 10px 50px var(--whiteBckGrS);
+}
+
+#frontEnd:hover {
+    background: radial-gradient(ellipse, var(--mainBckGrS), var(--mainBckGr));
+    box-shadow: inset -10px -10px 50px var(--mainBckGrL),
+    inset 10px 10px 50px var(--mainBckGrS);
+}
+
+#backEnd {
+    background: radial-gradient(ellipse, var(--whiteBckGrS), var(--whiteBckGr));
+    border-radius: 35px;
+    box-shadow: inset -10px -10px 50px var(--whiteBckGrL),
+    inset 10px 10px 50px var(--whiteBckGrS);
+}
+
+#backEnd:hover {
+    background: radial-gradient(ellipse, var(--mainBckGrS), var(--mainBckGr));
+    box-shadow: inset -10px -10px 50px var(--mainBckGrL),
+    inset 10px 10px 50px var(--mainBckGrS);
+}
+
+#resumeCard {
+    position: relative;
+    max-width: 100%;
+    flex: 1 1 auto;
+    padding-bottom: 75px;
+
+}

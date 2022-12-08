@@ -42,7 +42,6 @@ BckGrS = shadow */
     flex: 1 1 auto;
     max-height: 20vh;
     overflow: hidden;
-    position: relative;
     border: 3px solid var(--darkBckGr);
     border-radius: 15px;
 }

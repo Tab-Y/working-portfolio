@@ -21,6 +21,7 @@ function App() {
                     renderBio={() => setChoice('bio')}
                     renderProfile={() => setChoice('profile')}
                     renderProjects={() => setChoice('projects')}
+                    renderResume={() => setChoice('resume')}
                     active={choice}
                 />
                 <div className='container'>
