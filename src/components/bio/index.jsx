@@ -4,7 +4,7 @@ import selfie from './img/selfie.jpg';
 
 const Bio = ({ currentPage, handlePageChange }) => {
     return (
-        <>
+        <div id='aboutMePage'>
         <img src={selfie} alt="Photo of Taber Youmans" id='selfie' className='mx-auto d-block'/>
             <h1 className='card-title text-center' id='aboutMeTitle'>About Me</h1>
         <div className='card mx-auto' id='aboutMe'>
@@ -22,7 +22,7 @@ const Bio = ({ currentPage, handlePageChange }) => {
                     information is needed.
                 </p>
         </div>
-        </>
+        </div>
     )
 }
 

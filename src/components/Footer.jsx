@@ -10,10 +10,10 @@ const Footer = () => {
         <footer className='footer fixed-bottom'>
             <ul className='nav justify-content-center align-center'>
                 <li className='nav-item '>
-                    <a href="https://github.com/Tab-Y" className='nav-link footerBtn'>github</a>
+                    <a target='_blank' href="https://github.com/Tab-Y" className='nav-link footerBtn'>github</a>
                 </li>
                 <li className='nav-item'>
-                    <a href="https://www.linkedin.com/in/taber-youmans-500587131/" className='nav-link footerBtn'>linkedIn</a>
+                    <a target='_blank' href="https://www.linkedin.com/in/taber-youmans-500587131/" className='nav-link footerBtn'>linkedIn</a>
                 </li>
                 <li className='nav-item'>
                     <a onClick={additionalProfile} className='nav-link footerBtn'>Another Profile</a>
