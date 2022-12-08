@@ -88,3 +88,9 @@ BckGrS = shadow */
     width: 100%;
     grid-template-columns: repeat(auto-fit, minmax(400px ,1fr));
 }
+
+@media (max-width: 576px) {
+    .grid {
+        grid-template-columns: repeat(auto-fit, minmax(376px ,1fr));
+    }
+}
