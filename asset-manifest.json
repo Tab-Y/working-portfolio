@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/working-portfolio/static/css/main.611e9cb5.css",
+    "main.js": "/working-portfolio/static/js/main.4311ad42.js",
+    "static/media/surfer_screenshot.png": "/working-portfolio/static/media/surfer_screenshot.36ada992c0ace967690b.png",
+    "static/media/anime-tracker-splash.png": "/working-portfolio/static/media/anime-tracker-splash.77fea02d3258abf27c6c.png",
+    "static/media/weather-app-Screenshot.png": "/working-portfolio/static/media/weather-app-Screenshot.1d48c59e993170666a6d.png",
+    "static/media/Youmans-Taber-resume-2022-12.pdf": "/working-portfolio/static/media/Youmans-Taber-resume-2022-12.842a62d360f3daf2c825.pdf",
+    "static/media/selfie.jpg": "/working-portfolio/static/media/selfie.cee5c49074e91b4c61b3.jpg",
+    "static/media/index-screenshot.png": "/working-portfolio/static/media/index-screenshot.806b12e5338ad0eb374b.png",
+    "static/media/rps_preview.png": "/working-portfolio/static/media/rps_preview.984b452e2299a247c6e8.png",
+    "index.html": "/working-portfolio/index.html",
+    "main.611e9cb5.css.map": "/working-portfolio/static/css/main.611e9cb5.css.map",
+    "main.4311ad42.js.map": "/working-portfolio/static/js/main.4311ad42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.611e9cb5.css",
+    "static/js/main.4311ad42.js"
+  ]
+}
