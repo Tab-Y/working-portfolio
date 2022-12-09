@@ -15,24 +15,24 @@ const Projects = () => {
         <h1 className='card-title text-center' id='portfolioTitle'>Portfolio</h1>
         <div id='projects'>
             <div className='projectCard' id='featuredProject'>
-            <h4 className='over-img'>Anime Tracker<p>Node.js, MySQL, Handlebars, Bootstrap, JavaScript, CSS</p></h4>
+            <h4 href='https://github.com/Tab-Y/anime-tracker' className='over-img'>Anime Tracker<p>Node.js, MySQL, Handlebars, Bootstrap, JavaScript, CSS</p></h4>
                     <a href="https://anime-tracker-11-2022.herokuapp.com/"><img src={anime} alt="screenshot of Anime Tracker website" /></a>
             </div>
             <div className='grid'>
                 <div className='projectCard'>
-                    <h4 className='over-img'>Weather Dashboard<p>HTML, JavaScript, CSS</p></h4>
+                    <h4 href='https://github.com/Tab-Y/weather-dashboard' className='over-img'>Weather Dashboard<p>HTML, JavaScript, CSS</p></h4>
                     <a href="https://tab-y.github.io/weather-dashboard/"><img src={weather} alt="Weather forecast screenshot" /></a>
                 </div>
                 <div className='projectCard'>
-                    <h4 className='over-img'>Surfer Forecast<p>HTML, CSS, JavaScript, Tailwind</p></h4>
+                    <h4 href='https://github.com/MariaYConstanza/beach-day' className='over-img'>Surfer Forecast<p>HTML, CSS, JavaScript, Tailwind</p></h4>
                     <a href="https://MariaYConstanza.github.io/beach-day/"><img src={surfer} alt="screenshot of Surfer Forecast" /></a>
                 </div>
                 <div className='projectCard'>
-                    <h4 className='over-img'>Rock, Paper, Scissors, Lizard, Spock<p>HTML, JavaScript, CSS</p></h4>
+                    <h4 href='https://github.com/Tab-Y/rock-paper-scissors' className='over-img'>Rock, Paper, Scissors, Lizard, Spock<p>HTML, JavaScript, CSS</p></h4>
                     <a href="https://tab-y.github.io/rock-paper-scissors/"><img src={rps} alt="Rock, Paper, Scissors website game" /></a>
                 </div>
                 <div className='projectCard'>
-                    <h4 className='over-img'>Note Taker<p>HTML, CSS, JavaScript, Node.js, Express</p></h4>
+                    <h4 href='https://github.com/Tab-Y/note-taker' className='over-img'>Note Taker<p>HTML, CSS, JavaScript, Node.js, Express</p></h4>
                     <a href="https://creepy-demon-68174.herokuapp.com/"><img src={notetaker} alt="Image of screen shot for Note Taker" /></a>
                 </div>
                 {/* <div className='projectCard'>
