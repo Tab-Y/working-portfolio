@@ -11,7 +11,7 @@ import Resume from './components/resume';       // imports resume
 
 function App() {
 
-    const [choice, setChoice] = useState('bio');
+    const [choice, setChoice] = useState('');
 
     return (
         <>

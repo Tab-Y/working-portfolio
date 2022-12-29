@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css';
-import res from './docs/Youmans-Taber-resume-2022-12.pdf';
+import res from './docs/dec-2022-Youmans-Taber-Resume.docx';
 
 const Resume = () => {
     return (
